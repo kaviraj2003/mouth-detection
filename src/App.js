@@ -1,10 +1,10 @@
 import React from 'react';
-import MouthDetection from './mouthdetector';
+import EyeDetection from './eyedetection';
 
 function App() {
   return (
     <div>
-        <MouthDetection/>
+        <EyeDetection/>
     </div>
   );
 }
