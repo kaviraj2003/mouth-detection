@@ -1,0 +1,23 @@
+/* MouthDetection.css */
+
+#video-container {
+    position: relative;
+  }
+  
+  
+  video {
+    width: 100%;
+    margin-left: 100px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .mouth-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px; 
+    height: auto; 
+  }
+  
